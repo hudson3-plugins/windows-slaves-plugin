@@ -29,7 +29,6 @@ import hudson.model.Computer;
 import hudson.model.Descriptor;
 import hudson.model.Hudson;
 import hudson.model.TaskListener;
-import hudson.os.windows.Messages;
 import hudson.remoting.Channel;
 import hudson.remoting.Channel.Listener;
 import hudson.remoting.SocketInputStream;
@@ -41,7 +40,6 @@ import hudson.tools.JDKInstaller.CPU;
 import hudson.tools.JDKInstaller.Platform;
 import hudson.util.IOUtils;
 import hudson.util.Secret;
-import hudson.util.jna.DotNet;
 import jcifs.smb.NtlmPasswordAuthentication;
 import jcifs.smb.SmbException;
 import jcifs.smb.SmbFile;
@@ -73,6 +71,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import static hudson.Util.copyStreamAndClose;
+import org.hudsonci.plugins.jna.DotNet;
 import static org.jvnet.hudson.wmi.Win32Service.Win32OwnProcess;
 
 /**
