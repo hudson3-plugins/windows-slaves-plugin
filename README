@@ -1,1 +1,3 @@
-Plugin to support Windows Slave Launcher. Originally this was bundled with core. Since this ifunctionality requires GPL version of Java CIFS Client Library (http://jcifs.samba.org/), it has been moved out of core. 
+Plugin to support Windows Slave Launcher. Originally this was bundled with core. 
+Since this ifunctionality requires GPL version of Java CIFS Client Library (http://jcifs.samba.org/), 
+it has been moved out of core. 
